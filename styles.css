@@ -5,3 +5,37 @@
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+
+header {
+  background-color: #1f2937;
+}
+
+header .container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  align-items: center;
+}
+
+.navbar span {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
