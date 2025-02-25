@@ -134,3 +134,34 @@ p {
   font-size: 24px;
   margin-right: 300px;
 }
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 60px 150px;
+  border-radius: 10px;
+  width: 1300px;
+}
+
+.modal a {
+  border: 2px solid white;
+}
+
+.modal h3 {
+  color: #e5e7eb;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.modal p {
+  color: #e5e7eb;
+}
