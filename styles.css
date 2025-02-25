@@ -18,8 +18,8 @@ body > div {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 75px;
+  align-items: flex-end;
+  height: 50px;
   background-color: #1f2937;
 }
 
@@ -38,4 +38,41 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  background-color: #1f2937;
+}
+
+.hero-content {
+  height: 250px;
+  width: 460px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-banner p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 5px 25px;
+  display: inline-block;
+}
+
+.hero-banner img {
+  width: 419px;
+  height: auto;
 }
