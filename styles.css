@@ -76,3 +76,37 @@ h1 {
   width: 419px;
   height: auto;
 }
+
+.info {
+  height: 500px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+}
+
+.info img {
+  width: 169px;
+  height: auto;
+}
+
+p {
+  font-size: 18px;
+  color: #1f2937;
+}
