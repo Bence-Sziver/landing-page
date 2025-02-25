@@ -110,3 +110,27 @@ p {
   font-size: 18px;
   color: #1f2937;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  background-color: #e5e7eb;
+  gap: 30px;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  width: 945px;
+}
+
+.quote span {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 300px;
+}
